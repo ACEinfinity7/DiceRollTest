@@ -3,10 +3,10 @@ import random
 
 # pick a random number from 0 to n-1
 n = 10
-my_rand = random.randrange(n)
+my_rand = random.randrange(1, n+1)
 print(my_rand)
 
-a = 2
+a = 3
 b = 5
 my_rand2 = random.randint(a,b)
 my_rand3 = random.randrange(a,b)

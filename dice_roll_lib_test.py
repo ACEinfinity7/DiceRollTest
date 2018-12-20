@@ -28,17 +28,6 @@ class TestDiceRoll(unittest.TestCase):
     def test_roll_d8(self):
         d8 = roll_d8()
         print(f'8-sided {d8}')
-        self.assertTrue( 1 <= d8 <= 8)
-
-    def test_roll_d10(self):
-        d10 = roll_d10()
-        print(f'10-sided {d10}')
-        self.assertTrue( 1 <= d10 <= 10)
-
-    def test_roll_d12(self):
-        d12 = roll_d12()
-        print(f'12-sided {d12}')
-        self.assertTrue( 1 <= d12 <= 12)
 
     def test_roll_n_sided_die(self):
         n = 10
